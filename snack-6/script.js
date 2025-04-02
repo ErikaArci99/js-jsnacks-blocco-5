@@ -22,4 +22,14 @@ const zucchineLunghe = zucchine.filter ((zucchina) =>{
   }
 })
 
+const zucchineCorte = zucchine.filter ((zucchina) =>{
+  if (zucchina.length < 15){
+    return true;
+  }
+  else {
+    return false;
+  }
+})
+
 console.log(zucchineLunghe)
+console.log(zucchineCorte)
